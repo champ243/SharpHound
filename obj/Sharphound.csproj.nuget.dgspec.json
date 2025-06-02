@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\ActiveDirectory\\Enum\\SharpHound\\Sharphound.csproj": {}
+  },
+  "projects": {
+    "E:\\ActiveDirectory\\Enum\\SharpHound\\Sharphound.csproj": {
+      "version": "2.6.6",
+      "restore": {
+        "projectUniqueName": "E:\\ActiveDirectory\\Enum\\SharpHound\\Sharphound.csproj",
+        "projectName": "SharpHound",
+        "projectPath": "E:\\ActiveDirectory\\Enum\\SharpHound\\Sharphound.csproj",
+        "packagesPath": "C:\\Users\\champp\\.nuget\\packages\\",
+        "outputPath": "E:\\ActiveDirectory\\Enum\\SharpHound\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "E:\\ActiveDirectory\\Enum\\SharpHound\\NuGet.Config",
+          "C:\\Users\\champp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://s3.amazonaws.com/bloodhound-ad/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "CommandLineParser": {
+              "target": "Package",
+              "version": "[2.8.0, )"
+            },
+            "Costura.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.7.0, )"
+            },
+            "Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.6.0, )"
+            },
+            "Microsoft.Bcl.AsyncInterfaces": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "SharpHoundCommon": {
+              "target": "Package",
+              "version": "[4.2.7, )"
+            },
+            "SharpHoundRPC": {
+              "target": "Package",
+              "version": "[4.2.7, )"
+            },
+            "SharpZipLib": {
+              "target": "Package",
+              "version": "[1.3.3, )"
+            },
+            "System.Runtime.CompilerServices.Unsafe": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.Threading.Channels": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "System.ValueTuple": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win7-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
