@@ -5,9 +5,9 @@
 riderModule.iml
 /_ReSharper.Caches/
 
-build/
-docs/
-bin/
+
+
+
 
 # coverage files
 /docfx/api/*.yml
